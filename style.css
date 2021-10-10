@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+#photoFeedContainer {
+    display: flex;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+#photoContainer {
+    flex-basis: 45%;
+    background-color: thistle;
+    margin: 10px;
+}
+
+#photoContainer img {
+    max-width: 100%;
+
+}
+
+#sideNav {
+    flex-grow: 1;
+}
